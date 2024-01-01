@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Astro Vista</h1>
+    <main>
+      <section class="name">
+        <label for="#name">Name:</label>
+        <input type="text" name="name" id="name" />
+      </section>
+      <section class="input-field">
+        <label for="#birthdate">D.O.B:</label>
+        <input type="date" name="birthdate" id="birthdate" />
+      </section>
+      <section class="answer-field">
+        <p>your zodiac sign:</p>
+        <p id="answer">?</p>
+      </section>
+      <section class="prediction-field">
+        <p>Your this year's prediction:</p>
+        <p id="prediction">?</p>
+      </section>
+      <button id="subBttn">Submit</button>
+    </main>
+    <!-- spin wheel code -->
+    <div class="container">
+      <h2>Predict your future mood<span>👇</span></h2>
+      <div class="triangle"></div>
+      <div class="wheel">
+        <!-- <div class="small-circle"></div> -->
+        <div class="options option1">
+          <p class="first">Happy😄</p>
+        </div>
+        <div class="options option2">
+          <p class="second">Sad🥲</p>
+        </div>
+        <div class="options option3">
+          <p class="third">Angry😡</p>
+        </div>
+        <div class="options option4">
+          <p class="fourth">Bored😒</p>
+        </div>
+      </div>
+      <button class="spinBttn">Spin the wheel!</button>
+    </div>
+    <footer>
+      <p>-- made by Purbasha & Supratik</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
